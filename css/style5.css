@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    height: 100vh;    
+    background-image: url(../img/task5_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);       
+}
+
+
+div {
+    max-width: 400px;
+    min-height: 350px;
+    margin: 40px;
+    padding: 40px;
+    background-color: rgba(20, 20, 20, 0.9);
+    box-shadow: 0 0 10px;    
+    color: #28cde2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cgw-text-selection-popup {
+    display: none;
+}
+
+.ai-modal-container {
+    display: none;
+}
+
+
+

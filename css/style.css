@@ -1,0 +1,150 @@
+
+/*font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+body {
+    background-color: #D3D3D3;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+
+.task_link {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.task_link a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    padding: 15px 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.task_link a:hover {
+    color: #7B68EE;
+}
+
+.header {
+    background-color: #708090;
+    height: 60px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 46px;
+    padding: 15px 0;
+    margin-bottom: 10px;
+}
+
+.greetings {
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.about_img {
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.about_img img {
+    max-width: 250px;
+}
+
+h2 {
+    margin: 0;
+    padding: 15px 0;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #708090;
+    height: 20px;
+}
+
+.main_task2 {
+    background: linear-gradient(#141e30, #243b55);
+    height: 100vh;
+    padding: 150px 0;
+}
+
+.user_box {
+    width: 450px;
+    margin: 0 auto;
+    background: rgba(0,0,0,.5);
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    color: #fff;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.title_form {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.user_box input {
+    width: 100%;
+    padding: 10px 0;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.privacy_checkbox {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.privacy_checkbox input {
+    width: 20px;
+}
+
+.btn {
+    font-size: 12px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #03e9f4;
+    box-shadow: 0 0 2px #03e9f4;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #03e9f4;
+    box-shadow: 0 0 10px #03e9f4;
+    transition: all .5s;
+}
