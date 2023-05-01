@@ -1,26 +1,26 @@
 data = [
     {
-        image: "/img/D'ALBA waterfull vegan sleeping pack.jpg",
+        image: "../img/D'ALBA waterfull vegan sleeping pack.jpg",
         name: "D'ALBA waterfull vegan sleeping pack",
         price: 2574
     },
     {
-        image: "/img/D'ALBA white truffle intensive vegan ampoule.jpg",
+        image: "../img/D'ALBA white truffle intensive vegan ampoule.jpg",
         name: "D'ALBA white truffle intensive vegan ampoule",
         price: 8910
     },
     {
-        image: "/img/D'ALBA white truffle first spray serum.jpg",
+        image: "../img/D'ALBA white truffle first spray serum.jpg",
         name: "D'ALBA white truffle first spray serum",
         price: 2100
     },
     {
-        image: "/img/D'ALBA white truffle body cleanser.jpg",
+        image: "../img/D'ALBA white truffle body cleanser.jpg",
         name: "D'ALBA white truffle body cleanser",
         price: 2673
     },
     {
-        image: "/img/D'ALBA glow fit serum cover cushion.jpg",
+        image: "../img/D'ALBA glow fit serum cover cushion.jpg",
         name: "D'ALBA glow fit serum cover cushion",
         price: 3894
     }
